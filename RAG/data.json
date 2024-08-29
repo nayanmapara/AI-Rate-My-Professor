@@ -1,0 +1,803 @@
+[
+    {
+        "name": "Maximiliaan VanWoudenberg",
+        "department": "Literature",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 3.1,
+        "would_take_again_percentage": 100.0,
+        "difficulty_rating": 2.8
+    },
+    {
+        "name": "Dani Roche",
+        "department": "Design",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 1.0,
+        "would_take_again_percentage": 0.0,
+        "difficulty_rating": 2.0
+    },
+    {
+        "name": "Philip Stubbs",
+        "department": "Computer Science",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 4.7,
+        "would_take_again_percentage": "N/A",
+        "difficulty_rating": 2.6
+    },
+    {
+        "name": "Penny Davis",
+        "department": "Early Childhood Education",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 4.0,
+        "would_take_again_percentage": "N/A",
+        "difficulty_rating": 3
+    },
+    {
+        "name": "Victoria Renton",
+        "department": "Business",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 5.0,
+        "would_take_again_percentage": 91,
+        "difficulty_rating": 2.1
+    },
+    {
+        "name": "Roger Halfacre",
+        "department": "Business",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 5.0,
+        "would_take_again_percentage": 100,
+        "difficulty_rating": 1.6
+    },
+    {
+        "name": "Keith Barnwell",
+        "department": "Marketing",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 4.6,
+        "would_take_again_percentage": "N/A",
+        "difficulty_rating": 2.4
+    },
+    {
+        "name": "Scott Stratten",
+        "department": "Business",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 4.7,
+        "would_take_again_percentage": "N/A",
+        "difficulty_rating": 1.2
+    },
+    {
+        "name": "Judith Green",
+        "department": "Psychology",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 5.0,
+        "would_take_again_percentage": "N/A",
+        "difficulty_rating": 1
+    },
+    {
+        "name": "Heather Fritzley",
+        "department": "Psychology",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 4.9,
+        "would_take_again_percentage": "N/A",
+        "difficulty_rating": 2
+    },
+    {
+        "name": "Scott Eckert",
+        "department": "Design",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 5.0,
+        "would_take_again_percentage": 100,
+        "difficulty_rating": 1
+    },
+    {
+        "name": "Nathalie Di Francesco",
+        "department": "Early Childhood Education",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 5.0,
+        "would_take_again_percentage": 100,
+        "difficulty_rating": 1.8
+    },
+    {
+        "name": "Christine Ward",
+        "department": "Marketing",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 4.4,
+        "would_take_again_percentage": "N/A",
+        "difficulty_rating": 1.8
+    },
+    {
+        "name": "Marco Cibola",
+        "department": "Art",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 4.9,
+        "would_take_again_percentage": 100,
+        "difficulty_rating": 2.7
+    },
+    {
+        "name": "Stacey Cadmen",
+        "department": "Education",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 4.0,
+        "would_take_again_percentage": 67,
+        "difficulty_rating": 2.4
+    },
+    {
+        "name": "Jasmine Birch",
+        "department": "Business",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 3.6,
+        "would_take_again_percentage": 34,
+        "difficulty_rating": 3.1
+    },
+    {
+        "name": "Linda Ferguson",
+        "department": "Business",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 2.8,
+        "would_take_again_percentage": 50,
+        "difficulty_rating": 2.8
+    },
+    {
+        "name": "Alexandra Jackson",
+        "department": "Social Work",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 1.0,
+        "would_take_again_percentage": 0,
+        "difficulty_rating": 3
+    },
+    {
+        "name": "Gillian Chubb",
+        "department": "Media Studies",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 3.5,
+        "would_take_again_percentage": "N/A",
+        "difficulty_rating": 2.4
+    },
+    {
+        "name": "David Nowell",
+        "department": "Marketing",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 2.2,
+        "would_take_again_percentage": 26,
+        "difficulty_rating": 4
+    },
+    {
+        "name": "Ed Sykes",
+        "department": "Computer Science",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 2.8,
+        "would_take_again_percentage": 3,
+        "difficulty_rating": 3.7
+    },
+    {
+        "name": "Adam Finely",
+        "department": "Media Arts",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 1.6,
+        "would_take_again_percentage": 5,
+        "difficulty_rating": 3.4
+    },
+    {
+        "name": "Linda Gowda",
+        "department": "Economics",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 4.0,
+        "would_take_again_percentage": "N/A",
+        "difficulty_rating": 2.6
+    },
+    {
+        "name": "Laura Leahy",
+        "department": "Business",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 4.0,
+        "would_take_again_percentage": "N/A",
+        "difficulty_rating": 2.9
+    },
+    {
+        "name": "Corinne Duchesne",
+        "department": "Fine Arts",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 4.9,
+        "would_take_again_percentage": 100,
+        "difficulty_rating": 2.6
+    },
+    {
+        "name": "Jane Abramowitz",
+        "department": "Business",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 5.0,
+        "would_take_again_percentage": "N/A",
+        "difficulty_rating": 2.5
+    },
+    {
+        "name": "Yaser Khamayseh",
+        "department": "Computer Science",
+        "college": "Sheridan College - Oakville",
+        "quality_rating": 3.0,
+        "would_take_again_percentage": 0,
+        "difficulty_rating": 2.6
+    },
+    {
+        "quality_rating": 1.6,
+        "ratings": 5,
+        "name": "Simrandeep Dhillon",
+        "program": "Computer Science",
+        "institution": "Sheridan College - Oakville",
+        "recommendation": "would take again",
+        "difficulty_rating": 3.6
+    },
+    {
+        "quality_rating": 0.0,
+        "ratings": 0,
+        "name": "Matthew Mancini",
+        "program": "Art & Design",
+        "institution": "Sheridan College - Oakville",
+        "recommendation": "would take again",
+        "difficulty_rating": 0
+    },
+    {
+        "quality_rating": 0.0,
+        "ratings": 0,
+        "name": "Debbie Cooper",
+        "program": "Media & Performing Arts",
+        "institution": "Sheridan College - Oakville",
+        "recommendation": "would take again",
+        "difficulty_rating": 0
+    },
+    {
+        "quality_rating": 0.0,
+        "ratings": 0,
+        "name": "Hesham Moselhy",
+        "program": "Design",
+        "institution": "Sheridan College - Oakville",
+        "recommendation": "would take again",
+        "difficulty_rating": 0
+    },
+    {
+        "quality_rating": 0.0,
+        "ratings": 0,
+        "name": "Jerry Yang",
+        "program": "Illustration",
+        "institution": "Sheridan College - Oakville",
+        "recommendation": "would take again",
+        "difficulty_rating": 0
+    },
+    {
+        "quality_rating": 5.0,
+        "ratings": 180,
+        "name": "AlaaAldin AlRadh",
+        "program": "Information Technology",
+        "institution": "Sheridan College - Oakville",
+        "recommendation": "would take again",
+        "difficulty_rating": 1.6
+    },
+    {
+        "quality_rating": 5.0,
+        "ratings": 1,
+        "name": "Sherida Scott",
+        "program": "General Education",
+        "institution": "Sheridan College - Oakville",
+        "recommendation": "would take again",
+        "difficulty_rating": 2
+    },
+    {
+        "quality_rating": 2.9,
+        "ratings": 24,
+        "name": "Alexander Babanski",
+        "program": "Computer Science",
+        "institution": "Sheridan College - Oakville",
+        "recommendation": "would take again",
+        "difficulty_rating": 4.1
+    },
+    {
+        "quality_rating": 5.0,
+        "ratings": 3,
+        "name": "John Dafoe",
+        "program": "Information Technology",
+        "institution": "Sheridan College - Oakville",
+        "recommendation": "would take again",
+        "difficulty_rating": 2.3
+    },
+    {
+        "quality_rating": 2.5,
+        "ratings": 2,
+        "name": "Shahla Molahajloo",
+        "program": "Science",
+        "institution": "Sheridan College - Oakville",
+        "recommendation": "would take again",
+        "difficulty_rating": 3.5
+    },
+    {
+        "quality_rating": 0.0,
+        "ratings": 0,
+        "name": "Katy Dockrill",
+        "program": "Fine Arts",
+        "institution": "Sheridan College - Oakville",
+        "recommendation": "would take again",
+        "difficulty_rating": 0
+    },
+    {
+        "quality_rating": 5.0,
+        "ratings": 2,
+        "name": "Rogerio de Leon Pereira",
+        "program": "Computer Science",
+        "institution": "Sheridan College - Oakville",
+        "recommendation": "would take again",
+        "difficulty_rating": 3
+    },
+    {
+        "quality_rating": 3.6,
+        "ratings": 31,
+        "name": "Shalini Jaspal",
+        "program": "Computer Science",
+        "institution": "Sheridan College - Oakville",
+        "recommendation": "would take again",
+        "difficulty_rating": 4.3
+    },
+    {
+        "quality_rating": 5.0,
+        "ratings": 2,
+        "name": "Muhammad Asif",
+        "program": "Computer Science",
+        "institution": "Sheridan College - Oakville",
+        "recommendation": "would take again",
+        "difficulty_rating": 2
+    },
+    {
+        "quality_rating": 0.0,
+        "ratings": 0,
+        "name": "Joy Wong",
+        "program": "Media Arts",
+        "institution": "Sheridan College - Oakville",
+        "recommendation": "would take again",
+        "difficulty_rating": 0
+    },
+    {
+        "quality_rating": 3.1,
+        "ratings": 18,
+        "name": "Khaled Mahmud",
+        "program": "Communication",
+        "institution": "Sheridan College - Oakville",
+        "recommendation": "would take again",
+        "difficulty_rating": 3.4
+    },
+    {
+        "quality_rating": 5.0,
+        "ratings": 5,
+        "name": "Khuram Khalid",
+        "program": "Computer Science",
+        "institution": "Sheridan College - Oakville",
+        "recommendation": "would take again",
+        "difficulty_rating": 1
+    },
+    {
+        "quality_rating": 5.0,
+        "ratings": 1,
+        "name": "Cynthia Lockwood",
+        "program": "Early Childhood Education",
+        "institution": "Sheridan College - Oakville",
+        "recommendation": "would take again",
+        "difficulty_rating": 2
+    },
+    {
+        "quality_rating": 0.0,
+        "ratings": 0,
+        "name": "Dipak Pudasaini",
+        "program": "Computer Science",
+        "institution": "Sheridan College - Oakville",
+        "recommendation": "would take again",
+        "difficulty_rating": 0
+    },
+    {
+        "quality_rating": 3.0,
+        "ratings": 1,
+        "name": "Nargis Khan",
+        "program": "Information Technology",
+        "institution": "Sheridan College - Oakville",
+        "recommendation": "would take again",
+        "difficulty_rating": 3
+    },
+    {
+        "quality_rating": 2.0,
+        "ratings": 1,
+        "name": "Joel Benard",
+        "program": "Photography",
+        "institution": "Sheridan College - Oakville",
+        "recommendation": "would take again",
+        "difficulty_rating": 3
+    },
+    {
+        "quality": 4.2,
+        "ratings": 11,
+        "name": "Leo Grightmire",
+        "program": "Interior Design",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "N/A",
+        "difficulty": 3
+    },
+    {
+        "quality": 3.9,
+        "ratings": 9,
+        "name": "Yael Katz",
+        "program": "Writing",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "N/A",
+        "difficulty": 2.4
+    },
+    {
+        "quality": 5.0,
+        "ratings": 31,
+        "name": "Tony Kydd",
+        "program": "Marketing",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "100%",
+        "difficulty": 4
+    },
+    {
+        "quality": 4.8,
+        "ratings": 4,
+        "name": "Henry Katz",
+        "program": "Finance",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "N/A",
+        "difficulty": 2.5
+    },
+    {
+        "quality": 3.5,
+        "ratings": 5,
+        "name": "David Collins",
+        "program": "Film",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "N/A",
+        "difficulty": 3.6
+    },
+    {
+        "quality": 4.5,
+        "ratings": 4,
+        "name": "Maureen Garbutt",
+        "program": "Business",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "N/A",
+        "difficulty": 2.5
+    },
+    {
+        "quality": 4.6,
+        "ratings": 5,
+        "name": "Teresa Gomes",
+        "program": "Social Work",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "N/A",
+        "difficulty": 2
+    },
+    {
+        "quality": 3.5,
+        "ratings": 2,
+        "name": "Mark Komza",
+        "program": "Graphic Arts",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "N/A",
+        "difficulty": 2
+    },
+    {
+        "quality": 3.7,
+        "ratings": 5,
+        "name": "John Jones",
+        "program": "Fine Arts",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "N/A",
+        "difficulty": 2.8
+    },
+    {
+        "quality": 3.0,
+        "ratings": 6,
+        "name": "Siobhan Fitzmaurice",
+        "program": "Business",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "N/A",
+        "difficulty": 3
+    },
+    {
+        "quality": 3.1,
+        "ratings": 8,
+        "name": "Michael Hannan",
+        "program": "Computer Animation",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "100%",
+        "difficulty": 2.1
+    },
+    {
+        "quality": 4.9,
+        "ratings": 4,
+        "name": "Paul Toms",
+        "program": "Accounting",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "N/A",
+        "difficulty": 2.3
+    },
+    {
+        "quality": 4.8,
+        "ratings": 4,
+        "name": "Mark Thurman",
+        "program": "Fine Arts",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "100%",
+        "difficulty": 3.3
+    },
+    {
+        "quality": 2.3,
+        "ratings": 4,
+        "name": "Richard (Rick) Pottruff",
+        "program": "Fine Arts",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "N/A",
+        "difficulty": 3
+    },
+    {
+        "quality": 2.5,
+        "ratings": 1,
+        "name": "Kevin MacLean",
+        "program": "Journalism",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "N/A",
+        "difficulty": 4
+    },
+    {
+        "quality": 3.0,
+        "ratings": 1,
+        "name": "Nicholas Hunking",
+        "program": "Finance",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "N/A",
+        "difficulty": 3
+    },
+    {
+        "quality": 3.6,
+        "ratings": 7,
+        "name": "Sid Ansari",
+        "program": "Computer Science",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "N/A",
+        "difficulty": 3.7
+    },
+    {
+        "quality": 4.5,
+        "ratings": 1,
+        "name": "Sybil Goldstein",
+        "program": "Art",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "N/A",
+        "difficulty": 4
+    },
+    {
+        "quality": 2.0,
+        "ratings": 1,
+        "name": "Shelley Russell",
+        "program": "Community Studies",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "N/A",
+        "difficulty": 5
+    },
+    {
+        "quality": 1.3,
+        "ratings": 3,
+        "name": "Susan Rodgers",
+        "program": "Accounting",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "N/A",
+        "difficulty": 3
+    },
+    {
+        "quality": 5.0,
+        "ratings": 1,
+        "name": "Debbie Bright",
+        "program": "Early Childhood Education",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "N/A",
+        "difficulty": 1
+    },
+    {
+        "quality": 5.0,
+        "ratings": 2,
+        "name": "Tania Young",
+        "program": "Psychology",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "N/A",
+        "difficulty": 2.5
+    },
+    {
+        "quality": 4.0,
+        "ratings": 1,
+        "name": "Mary Walton",
+        "program": "Computer Science",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "N/A",
+        "difficulty": 3
+    },
+    {
+        "quality": 3.9,
+        "ratings": 3,
+        "name": "Lauren Nurse",
+        "program": "Art & Design",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "100%",
+        "difficulty": 2.4
+    },
+    {
+        "quality": 0.0,
+        "ratings": 0,
+        "name": "Marc Bueno",
+        "program": "Computer Science",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "N/A",
+        "difficulty": 0
+    },
+    {
+        "quality": 3.3,
+        "ratings": 12,
+        "name": "Julia Breckenreid",
+        "program": "Graphic Arts",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "50%",
+        "difficulty": 3
+    },
+    {
+        "quality": 4.6,
+        "ratings": 22,
+        "name": "Zain Dinath",
+        "program": "Design",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "91%",
+        "difficulty": 2.8
+    },
+    {
+        "quality": 1.4,
+        "ratings": 9,
+        "name": "Nasim Muhammad",
+        "program": "Mathematics",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "0%",
+        "difficulty": 4
+    },
+    {
+        "quality": 5.0,
+        "ratings": 5,
+        "name": "Mario Romano",
+        "program": "Liberal Studies",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "100%",
+        "difficulty": 1.9
+    },
+    {
+        "quality": 3.6,
+        "ratings": 26,
+        "name": "Robert Moskal",
+        "program": "Computer Science",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "55%",
+        "difficulty": 3.8
+    },
+    {
+        "quality": 3.3,
+        "ratings": 8,
+        "name": "Muath Alzghool",
+        "program": "Computer Science",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "50%",
+        "difficulty": 3.4
+    },
+    {
+        "quality": 5.0,
+        "ratings": 1,
+        "name": "Sean McCormack",
+        "program": "Art & Design",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "100%",
+        "difficulty": 3
+    },
+    {
+        "quality": 2.9,
+        "ratings": 7,
+        "name": "Gwen Roberts",
+        "program": "Finance",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "0%",
+        "difficulty": 3.6
+    },
+    {
+        "quality": 3.5,
+        "ratings": 2,
+        "name": "Karen Booth",
+        "program": "Marketing",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "100%",
+        "difficulty": 1
+    },
+    {
+        "quality": 5.0,
+        "ratings": 1,
+        "name": "Marco Cibola",
+        "program": "Illustration",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "100%",
+        "difficulty": 3
+    },
+    {
+        "quality": 2.3,
+        "ratings": 6,
+        "name": "Ross Geddes",
+        "program": "Business",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "0%",
+        "difficulty": 4.8
+    },
+    {
+        "quality": 4.4,
+        "ratings": 4,
+        "name": "Randall Kapuscinski",
+        "program": "Film",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "100%",
+        "difficulty": 2.3
+    },
+    {
+        "quality": 2.6,
+        "ratings": 5,
+        "name": "Karen O'Rourke",
+        "program": "Marketing",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "N/A",
+        "difficulty": 3.2
+    },
+    {
+        "quality": 3.9,
+        "ratings": 6,
+        "name": "John Janzen",
+        "program": "Business",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "N/A",
+        "difficulty": 1.8
+    },
+    {
+        "quality": 1.0,
+        "ratings": 1,
+        "name": "James Mwangi",
+        "program": "Computer Science",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "0%",
+        "difficulty": 3
+    },
+    {
+        "quality": 4.0,
+        "ratings": 1,
+        "name": "Vandenbeld Giles",
+        "program": "Computer Science",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "0%",
+        "difficulty": 4
+    },
+    {
+        "quality": 0.0,
+        "ratings": 0,
+        "name": "Bilal Momani",
+        "program": "Computer Science",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "N/A",
+        "difficulty": 0
+    },
+    {
+        "quality": 4.0,
+        "ratings": 7,
+        "name": "Donna Armstrong",
+        "program": "Design",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "N/A",
+        "difficulty": 3.1
+    },
+    {
+        "quality": 5.0,
+        "ratings": 2,
+        "name": "Peter Lusztyk",
+        "program": "Communication",
+        "college": "Sheridan College - Oakville",
+        "wouldTakeAgain": "100%",
+        "difficulty": 3
+    }
+]
