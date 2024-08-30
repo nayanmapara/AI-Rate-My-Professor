@@ -31,6 +31,8 @@ export default function Home() {
 		flexDirection: "column",
 		alignItems: "center",
 		marginTop: "20px",
+		width: "100%",
+		maxWidth: "600px",
 	};
 
 	const buttonStyle = {
@@ -53,11 +55,13 @@ export default function Home() {
 		borderRadius: "20px",
 	};
 
-	const placeHorizontal = {
-		display: "flex",
-		flexDirection: "row",
-		gap: "20px", //gives spacing between the textbox and button
-		justifyContent: "center",
+	const cardStyle = {
+		backgroundColor: "#ffffff",
+		borderRadius: "15px",
+		boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+		padding: "20px",
+		width: "100%",
+		boxSizing: "border-box",
 	};
 
 	return (
@@ -66,7 +70,7 @@ export default function Home() {
 				<h1 style={headingOneSize}> Rate My Professor</h1>
 			</div>
 			<div style={contentStyle}>
-				<div styel={placeHorizontal}>
+				<div style={cardStyle}>
 					<input type="text" placeholder="School Name" style={inputStyle} />
 					<input type="text" placeholder="Professor Name" style={inputStyle} />
 					<button style={buttonStyle}>Submit</button>
