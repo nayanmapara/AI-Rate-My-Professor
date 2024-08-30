@@ -1,6 +1,12 @@
 export default function Home() {
 	const headingOneSize = {
 		fontSize: "36px",
+		margin: "0",
+		padding: "20px",
+		backgroundColor: "#191970",
+		color: "white",
+		borderRadius: "0 0 50px 50px",
+		textAlign: "center",
 	};
 
 	const overallStyle = {
