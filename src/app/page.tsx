@@ -11,6 +11,18 @@ export default function Home() {
 		boxSizing: "border-box",
 	};
 
+	const cardStyle = {
+		display: "flex",
+		flexDirection: "column",
+		alignItems: "center",
+		backgroundColor: "#ffffff",
+		borderRadius: "15px",
+		boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+		padding: "20px",
+		width: "100%",
+		boxSizing: "border-box",
+	};
+
 	const headingOneStyle = {
 		width: "100vw",
 		padding: "20px",
@@ -53,15 +65,6 @@ export default function Home() {
 		margin: "10px 0",
 		border: "1px solid #ccc",
 		borderRadius: "20px",
-	};
-
-	const cardStyle = {
-		backgroundColor: "#ffffff",
-		borderRadius: "15px",
-		boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-		padding: "20px",
-		width: "100%",
-		boxSizing: "border-box",
 	};
 
 	return (
