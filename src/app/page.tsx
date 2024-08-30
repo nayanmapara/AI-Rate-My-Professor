@@ -28,13 +28,20 @@ export default function Home() {
 		borderRadius: "50px",
 	};
 
-	const inputStyle = {};
+	const inputStyle = {
+		width: "100%",
+		maxWidth: "400px",
+		padding: "10px",
+		margin: "10px 0",
+		border: "1px solid #ccc",
+		borderRadius: "20px",
+	};
 
 	return (
 		<div style={overallStyle}>
 			<h1 style={headingOneSize}> Rate My Professor</h1>
-			<input type="text" placeholder="School Name" />
-			<input type="text" placeholder="Professor Name" />
+			<input type="text" placeholder="School Name" style={inputStyle} />
+			<input type="text" placeholder="Professor Name" style={inputStyle} />
 			<button style={buttonStyle}>Submit</button>
 		</div>
 	);
