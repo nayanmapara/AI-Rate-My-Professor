@@ -1,37 +1,51 @@
 export default function Home() {
-	const headingOneSize = {
-		fontSize: "36px",
-		margin: "0",
-		padding: "20px",
-		backgroundColor: "#191970",
-		color: "white",
-		borderRadius: "0 0 50px 50px",
-		textAlign: "center",
-	};
-
 	const overallStyle = {
 		display: "flex",
 		flexDirection: "column",
-		justifyContent: "space-between",
+		justifyContent: "flex-start",
 		alignItems: "center",
 		height: "100vh",
 		textAlign: "center",
 		padding: "20px",
 		border: "1px solid #ccc",
-		borderRadius: "50px",
+		backgroundColor: "#004CC5",
 		color: "white",
+		boxSizing: "border-box",
+	};
+
+	const headingOneStyle = {
+		width: "100vw",
+		padding: "20px",
+		backgroundColor: "#191970",
+		color: "white",
+		textAlign: "center",
+		boxSizing: "border-box",
+		borderRadius: "0 0 50px 50px",
+		margin: "0",
+	};
+
+	const headingOneSize = {
+		fontSize: "36px",
+		margin: "0",
+		padding: "0",
+	};
+
+	const contentStyle = {
+		display: "flex",
+		flexDirection: "column",
+		alignItems: "center",
+		marginTop: "20px",
 	};
 
 	const buttonStyle = {
-		position: "absolute",
-		right: "20px",
-		top: "20px",
+		marginTop: "20px",
 		padding: "10px 20px",
 		fontSize: "20px",
 		backgroundColor: "#71AFFF",
 		color: "white",
 		border: "none",
 		borderRadius: "50px",
+		cursor: "pointer",
 	};
 
 	const inputStyle = {
@@ -45,10 +59,14 @@ export default function Home() {
 
 	return (
 		<div style={overallStyle}>
-			<h1 style={headingOneSize}> Rate My Professor</h1>
-			<input type="text" placeholder="School Name" style={inputStyle} />
-			<input type="text" placeholder="Professor Name" style={inputStyle} />
-			<button style={buttonStyle}>Submit</button>
+			<div style={headingOneStyle}>
+				<h1 style={headingOneSize}> Rate My Professor</h1>
+			</div>
+			<div style={contentStyle}>
+				<input type="text" placeholder="School Name" style={inputStyle} />
+				<input type="text" placeholder="Professor Name" style={inputStyle} />
+				<button style={buttonStyle}>Submit</button>
+			</div>
 		</div>
 	);
 }
