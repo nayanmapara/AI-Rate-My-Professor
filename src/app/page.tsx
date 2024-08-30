@@ -12,7 +12,7 @@ export default function Home() {
 		height: "100vh",
 		textAlign: "center",
 		border: "1px solid #ccc",
-		backgroundColor: "#004CC5",
+		backgroundColor: "linear-gradient(to bottom, #004CC5, #87CEEB)",
 		color: "white",
 		boxSizing: "border-box",
 	};
@@ -32,7 +32,7 @@ export default function Home() {
 	const headingOneStyle = {
 		width: "100vw",
 		padding: "20px",
-		backgroundColor: "#191970",
+		background: "linear-gradient(to bottom, #191970, rgba(25, 25, 112, 0))",
 		color: "white",
 		textAlign: "center",
 		boxSizing: "border-box",
@@ -62,8 +62,10 @@ export default function Home() {
 		border: "none",
 		borderRadius: "50px",
 		cursor: "pointer",
+		transition: "background-color 0.3s ease",
 	};
 
+	//our textboxes
 	const inputStyle = {
 		width: "100%",
 		maxWidth: "400px",
