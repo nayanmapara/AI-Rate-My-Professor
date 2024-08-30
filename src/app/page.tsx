@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 
 export default function Home() {
-	const [hovered, setHovered] = useState(false);
+	const [hovered, setHovered] = useState(false); //for hover color of button
 
 	const overallStyle = {
 		display: "flex",
@@ -39,7 +39,7 @@ export default function Home() {
 	};
 
 	const headingOneSize = {
-		fontSize: "36px",
+		fontSize: "46px",
 		margin: "0",
 		padding: "0",
 	};
@@ -54,7 +54,7 @@ export default function Home() {
 	};
 
 	const buttonStyle = {
-		marginTop: "20px",
+		marginTop: "10px",
 		padding: "10px 20px",
 		fontSize: "20px",
 		backgroundColor: hovered ? "#4DA3FF" : "#71AFFF",
