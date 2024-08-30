@@ -2,11 +2,9 @@ export default function Home() {
 	const overallStyle = {
 		display: "flex",
 		flexDirection: "column",
-		justifyContent: "flex-start",
 		alignItems: "center",
 		height: "100vh",
 		textAlign: "center",
-		padding: "20px",
 		border: "1px solid #ccc",
 		backgroundColor: "#004CC5",
 		color: "white",
@@ -20,8 +18,6 @@ export default function Home() {
 		color: "white",
 		textAlign: "center",
 		boxSizing: "border-box",
-		borderRadius: "0 0 50px 50px",
-		margin: "0",
 	};
 
 	const headingOneSize = {
