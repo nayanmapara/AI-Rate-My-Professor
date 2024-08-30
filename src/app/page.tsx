@@ -53,15 +53,24 @@ export default function Home() {
 		borderRadius: "20px",
 	};
 
+	const placeHorizontal = {
+		display: "flex",
+		flexDirection: "row",
+		gap: "20px", //gives spacing between the textbox and button
+		justifyContent: "center",
+	};
+
 	return (
 		<div style={overallStyle}>
 			<div style={headingOneStyle}>
 				<h1 style={headingOneSize}> Rate My Professor</h1>
 			</div>
 			<div style={contentStyle}>
-				<input type="text" placeholder="School Name" style={inputStyle} />
-				<input type="text" placeholder="Professor Name" style={inputStyle} />
-				<button style={buttonStyle}>Submit</button>
+				<div styel={placeHorizontal}>
+					<input type="text" placeholder="School Name" style={inputStyle} />
+					<input type="text" placeholder="Professor Name" style={inputStyle} />
+					<button style={buttonStyle}>Submit</button>
+				</div>
 			</div>
 		</div>
 	);
