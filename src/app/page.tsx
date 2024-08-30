@@ -1,4 +1,10 @@
+"use client";
+
+import React, { useState } from "react";
+
 export default function Home() {
+	const [hovered, setHovered] = useState(false);
+
 	const overallStyle = {
 		display: "flex",
 		flexDirection: "column",
@@ -51,7 +57,7 @@ export default function Home() {
 		marginTop: "20px",
 		padding: "10px 20px",
 		fontSize: "20px",
-		backgroundColor: "#71AFFF",
+		backgroundColor: hovered ? "#4DA3FF" : "#71AFFF",
 		color: "white",
 		border: "none",
 		borderRadius: "50px",
@@ -76,7 +82,13 @@ export default function Home() {
 				<div style={cardStyle}>
 					<input type="text" placeholder="School Name" style={inputStyle} />
 					<input type="text" placeholder="Professor Name" style={inputStyle} />
-					<button style={buttonStyle}>Submit</button>
+					<button
+						style={buttonStyle}
+						onMouseEnter={() => setHovered(true)}
+						onMouseLeave={() => setHovered(false)}
+					>
+						Submit
+					</button>
 				</div>
 			</div>
 		</div>
