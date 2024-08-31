@@ -1,66 +1,58 @@
+from dotenv import load_dotenv
 import os
 import json
-from pinecone import Pinecone
+from pinecone import Pinecone, ServerlessSpec
+from openai import OpenAI
+
+load_dotenv()
 
 # Your Pinecone API key and environment
-PINECONE_API_KEY = ''  # Replace with your actual API key
-PINECONE_ENV = 'https://project5-yxbf4cq.svc.aped-4627-b74a.pinecone.io'
+PINECONE_API_KEY = os.environ["PINECONE_API_KEY"]
+PINECONE_ENV = os.environ["NEXT_PUBLIC_PINECONE_ENV"]
+OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]
 
 # Initialize Pinecone
 pc = Pinecone(api_key=PINECONE_API_KEY, environment=PINECONE_ENV)
 
-# Connect to your existing index
-index_name = 'project5'  # Use the actual index name if different
-index = pc.Index(index_name)
+# Load the existing Pinecone index
+index = pc.Index("rag")  # Assuming "rag" is the name of the existing index
 
-# Function to convert data entry to vector
-def convert_to_vector(data_entry):
-    # Create a vector with dimensions based on your data
-    # Example: If you have 5 fields, you can convert them into a vector
-    vector = []
+# Load the professor data from data.json
+with open("data.json", "r") as f:
+    professor_data = json.load(f)
+
+processed_data = []
+client = OpenAI(api_key=OPENAI_API_KEY)
+
+# Create embeddings for each professor entry
+for professor in professor_data:
+    review = f"Professor {professor['name']} from {professor['department']} at {professor['college']} has a quality rating of {professor['quality_rating']} with a difficulty rating of {professor['difficulty_rating']} and a would-take-again percentage of {professor['would_take_again_percentage']}."
     
-    # Convert fields to numerical representation
-    qr = data_entry.get('quality_rating', 0)
-    wtap = data_entry.get('would_take_again_percentage', 0)
-    dr = data_entry.get('difficulty_rating', 0)
-    
-    if qr == 'N/A':
-        qr = 0.0
-    if wtap == 'N/A':
-        wtap = 0.0
-    if dr == 'N/A':
-        dr = 0.0
+    response = client.embeddings.create(
+        input=review, model="text-embedding-ada-002"  # Use an appropriate embedding model
+    )
+    embedding = response.data[0].embedding
+    processed_data.append(
+        {
+            "values": embedding,
+            "id": professor["name"],  # Using professor's name as the ID
+            "metadata": {
+                "review": review,
+                "subject": professor["department"],
+                "college": professor["college"],
+                "stars": professor["quality_rating"],
+                "difficulty": professor["difficulty_rating"],
+                "would_take_again": professor["would_take_again_percentage"],
+            }
+        }
+    )
 
-    vector.append(float(qr))
-    vector.append(float(wtap))
-    vector.append(float(dr))
+# Insert the embeddings into the Pinecone index
+upsert_response = index.upsert(
+    vectors=processed_data,
+    namespace="ns1",
+)
+print(f"Upserted count: {upsert_response['upserted_count']}")
 
-    if 0.0 in set(vector):
-        return False
-    else:
-
-    # vector.append(float(data_entry.get('quality_rating', 0)))
-    # vector.append(float(data_entry.get('would_take_again_percentage', 0)))
-    # vector.append(float(data_entry.get('difficulty_rating', 0)))
-    
-    # You might need to handle cases where fields are missing or have 'N/A'
-    # Ensure all values are numeric, if not, convert them (e.g., using a default value)
-        return vector + [0.0] * (3072 - len(vector))  # Padding to ensure vector size of 3072
-
-# Read the JSON file
-with open('data.json', 'r') as file:
-    data = json.load(file)
-
-# Upsert data into Pinecone one entry at a time
-for i, entry in enumerate(data):
-    print(f"Uploading entry {i + 1} of {len(data)}\n")
-    print(entry)
-    if isinstance(entry, dict):
-        vector = convert_to_vector(entry)
-        print(f"Vector: {vector}\n")
-        # index.upsert(vectors=[(str(i), vector)])  # Upsert one vector at a time
-    
-    if vector:
-        index.upsert(vectors=[(str(i), vector)]) 
-
-print("Data has been uploaded to Pinecone.")
+# Print index statistics
+print(index.describe_index_stats())

@@ -1,21 +1,43 @@
 "use client";
 
-import React, { useState } from "react";
+import { useState, useEffect } from "react";
+import Chat from "./components/Chat";
+import { IconButton } from "@mui/material";
+import { DarkMode, LightMode } from "@mui/icons-material";
 
 export default function Home() {
+	const [theme, setTheme] = useState<"light" | "dark">("light");
+
+	useEffect(() => {
+		const savedTheme = localStorage.getItem("theme") as "light" | "dark";
+		if (savedTheme) {
+			setTheme(savedTheme);
+			document.body.classList.add(savedTheme);
+		}
+	}, []);
+
+	const toggleTheme = () => {
+		const newTheme = theme === "light" ? "dark" : "light";
+		setTheme(newTheme);
+		document.body.classList.remove(theme);
+		document.body.classList.add(newTheme);
+		localStorage.setItem("theme", newTheme);
+	};
 
 	return (
-		<div className="overall-style">
-			<div className="heading-one-style">
-				<h1 className="heading-one-size"> Rate My Professor</h1>
+		<div className="flex flex-col h-screen">
+			<div className="flex justify-end p-4">
+				<IconButton
+					onClick={toggleTheme}
+					color="primary"
+					sx={{
+						color: theme === "light" ? "#FFA500" : "#FFFFFF",
+					}}
+				>
+					{theme === "light" ? <DarkMode /> : <LightMode />}
+				</IconButton>
 			</div>
-			<div className="content-style">
-				<div className="card-style">
-					<input type="text" placeholder="School Name" className="input-style" />
-					<input type="text" placeholder="Professor Name" className="input-style" />
-					<button className="button-style">Submit</button>
-				</div>
-			</div>
+			<Chat theme={theme} toggleTheme={toggleTheme} />
 		</div>
 	);
 }
