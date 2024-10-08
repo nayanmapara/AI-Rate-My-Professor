@@ -1,3 +1,8 @@
+> [!Important]  
+> This project has been archived. We sincerely thank you for your contributions and support.
+>
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
